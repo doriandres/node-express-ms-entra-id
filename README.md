@@ -19,3 +19,4 @@ app.get("/profile", msal.authenticate(["User.Read"]), (req: Request, res: Respon
     res.json(req.session.account);
 });
 ```
+Check [index.ts](https://github.com/doriandres/node-express-ms-entra-id/blob/main/src/index.ts) for more details!
