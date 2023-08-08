@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "outDir": "build",
+        "pretty": true,
+        "resolveJsonModule": true,
+    },
+    "exclude": [ "node_modules", "build" ]
+}
